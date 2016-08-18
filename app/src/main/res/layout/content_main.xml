@@ -16,6 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Is the following Number Prime ?"
+        android:textStyle="bold|italic"
         android:layout_marginTop="61dp"
         android:id="@+id/Prime"
         android:layout_below="@+id/text2"
@@ -25,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text1"
+        android:textStyle="bold"
         android:layout_below="@+id/Prime"
         android:layout_centerHorizontal="true" />
 
@@ -32,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text2"
+        android:textStyle="bold"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="57dp" />
@@ -39,7 +42,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yes"
+        android:text="@string/button1"
         android:drawableLeft="@drawable/correct"
         android:id="@+id/button1"
         android:layout_centerVertical="true"
@@ -49,7 +52,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No"
+        android:text="@string/button2"
         android:drawableRight="@drawable/incorrect"
         android:id="@+id/button2"
         android:layout_above="@+id/button3"
@@ -59,7 +62,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:text="@string/button3"
         android:id="@+id/button3"
         android:drawableRight="@drawable/next"
         android:layout_below="@+id/button1"

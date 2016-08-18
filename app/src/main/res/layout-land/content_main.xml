@@ -16,6 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Is the following Number Prime?"
+        android:textStyle="bold|italic"
         android:id="@+id/Prime"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -31,7 +32,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yes"
+        android:text="@string/button1"
         android:id="@+id/button1"
         android:drawableLeft="@drawable/correct"
         android:layout_above="@+id/button3"
@@ -41,7 +42,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No"
+        android:text="@string/button2"
         android:drawableLeft="@drawable/incorrect"
         android:id="@+id/button2"
         android:layout_above="@+id/button3"
@@ -51,7 +52,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:text="@string/button3"
         android:id="@+id/button3"
         android:drawableRight="@drawable/next"
         android:layout_alignParentBottom="true"
@@ -61,7 +62,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text2"
+        android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/Prime"
-        android:layout_toStartOf="@+id/Prime" />
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
 </RelativeLayout>

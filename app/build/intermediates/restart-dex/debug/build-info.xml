@@ -4,7 +4,7 @@
     api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="1701901046241"
+    timestamp="3905814269268"
     token="-4541181884990028130" >
 
     <task
@@ -20,7 +20,20 @@
         name="verifier"
         duration="0" />
 
-    <build timestamp="1701901046241" />
+    <artifact
+        location="E:\AndroidStudioProjects\PrimeMathQuiz\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="3730552611840" >
+        <artifact
+            location="E:\AndroidStudioProjects\PrimeMathQuiz\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="3905814269268" >
+        <artifact
+            location="E:\AndroidStudioProjects\PrimeMathQuiz\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
     <build timestamp="8071589484734" >
         <artifact
             location="E:\AndroidStudioProjects\PrimeMathQuiz\app\build\outputs\apk\app-debug.apk"

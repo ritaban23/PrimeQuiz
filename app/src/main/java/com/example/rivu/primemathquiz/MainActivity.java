@@ -1,3 +1,4 @@
+
 package com.example.rivu.primemathquiz;
 import android.app.Activity;
 import android.content.Context;
@@ -62,11 +63,11 @@ public class MainActivity extends Activity {
     public void onResume(){
         super.onResume();
         Button f = (Button) findViewById(R.id.button3);  // for next button
-        final Button f2 = (Button) findViewById(R.id.button2);  // for false button
-        final Button f3 = (Button) findViewById(R.id.button1); //for true button
+        final Button f2 = (Button) findViewById(R.id.button2);  // for NO button
+        final Button f3 = (Button) findViewById(R.id.button1); //for YES button
         final TextView b = (TextView) findViewById(R.id.text1);   //for displaying the number
         final TextView b1 = (TextView) findViewById(R.id.text2);   // for displaying correct or incorrect
-        b1.setText("Correct--" + "     " + correctAns + " ||||||||| " + "Incorrect--" + "      " + inCorrectAns);
+        b1.setText("Correct--" + "     " + correctAns + "              " + "Incorrect--" + "     " + inCorrectAns);
         if(numb!=0)
             i=numb;
         b.setText(String.valueOf(Math.abs(i)%100));
@@ -116,7 +117,7 @@ public class MainActivity extends Activity {
                 }
                 flag = 0;
                 toast.show();
-                b1.setText("Correct--" + "     " + correctAns + " ||||||||| " + "Incorrect--" + "      " + inCorrectAns);
+                b1.setText("Correct--" + "     " + correctAns + "                 " + "Incorrect--" + "    " + inCorrectAns);
                 f2.setEnabled(false);
                 f3.setEnabled(false);
                 active=false;
@@ -151,7 +152,7 @@ public class MainActivity extends Activity {
                 }
                 flag = 0;
                 toast.show();
-                b1.setText("Correct--" + "     " + correctAns + " ||||||||| " + "Incorrect--" + "      " + inCorrectAns);
+                b1.setText("Correct--" + "     " + correctAns + "                " + "Incorrect--" + "    " + inCorrectAns);
                 f2.setEnabled(false);
                 f3.setEnabled(false);
                 active=false;
